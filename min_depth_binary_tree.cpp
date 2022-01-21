@@ -12,6 +12,7 @@ struct TreeNode{
     TreeNode(int x): val(x), left(nullptr), right(nullptr) {}
     TreeNode(int x, TreeNode* left, TreeNode* right): val(x), left(left), right(right){}
 };
+
 int result =  INT_MAX;
 
 void compute(TreeNode* root, int depth){
